@@ -121,7 +121,7 @@ import {
       company_name: "Wok of Fame",
       icon: wokoffame,
       iconBg: "#383E56",
-      date: "May 2023 - now",
+      date: "May 2023 - Now",
       points: [
         "Collaborated with 4 kitchen staffs to coordinate food preparation, demonstrating the ability to work as part of a team in live cooking buffet section.",
         "Presented a flair for Teppanyaki cooking and mastery of the wok to around 200 customers.",
@@ -267,20 +267,25 @@ import {
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "threejs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "react",
           color: "pink-text-gradient",
         },
+        {
+          name: "emailjs",
+          color: "blue-text-gradient",
+        },
+    
       ],
       image: tripguide,
-      source_code_link: "https://github.com/nguvuong/Real-time-eCommerce-App",
+      source_code_link: "https://github.com/nguvuong/3d_portfolio",
     },
   ];
   
