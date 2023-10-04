@@ -2,7 +2,7 @@
   "name": "3d_portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://nguvuong.dev.fast.sheridanc.on.ca/My_Porfolio/",
+  "homepage": "https://nguvuong.github.io/3d_portfolio",
   "type": "module",
   "scripts": {
     "dev": "vite",
