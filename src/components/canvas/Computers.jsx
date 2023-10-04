@@ -10,6 +10,7 @@ const Computers = ({ isMobile }) => {
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor='black' />
+      {/* main light */}
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -18,7 +19,9 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
+      {/* standard light */}
       <pointLight intensity={1} />
+      {/* 3d computer */}
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
@@ -29,6 +32,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
+// for mobile
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -53,6 +57,7 @@ const ComputersCanvas = () => {
     };
   }, []);
 
+  // controll the camera
   return (
     <Canvas
       frameloop='demand'

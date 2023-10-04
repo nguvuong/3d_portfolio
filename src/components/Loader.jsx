@@ -14,8 +14,10 @@ const CanvasLoader = () => {
       }}
     >
       <span className='canvas-loader'></span>
+      {/* percentage of the loader */}
       <p
         style={{
+          // customize the font
           fontSize: 14,
           color: "#F1F1F1",
           fontWeight: 800,
